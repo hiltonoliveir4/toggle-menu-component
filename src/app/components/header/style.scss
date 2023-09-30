@@ -1,0 +1,42 @@
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: transparent;
+
+  span {
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 16px;
+      background-color: #ffffff;
+      border-radius: 32px;
+      padding: 4px;
+
+      li {
+        button {
+          border: none;
+          line-height: 150%;
+          font-size: 12px;
+          border-radius: 24px;
+          padding: 8px 12px;
+          background-color: transparent;
+          font-weight: 500;
+        }
+
+        .btn-active {
+          background-color: #221f7a;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
